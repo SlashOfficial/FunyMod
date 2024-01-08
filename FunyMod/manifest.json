@@ -1,0 +1,28 @@
+{
+	"name": "Funy Mod",
+	"description": "FunyGreenMan Screaming (warning: loud)",
+	"developer": {
+		"name": "kxcq"
+	},
+	"icons": {
+		"512": "icon_512.png"
+	},
+	"manifest_version": 3,
+	"mod": {
+		"license": "license.txt",
+		"payload": {
+			"keyboard_sounds": {
+				"TYPING_BACKSPACE": ["keyboard/backspace.wav"],
+				"TYPING_ENTER": ["keyboard/enter.wav"],
+				"TYPING_LETTER": [
+					"keyboard/letter_1.wav",
+					"keyboard/letter_2.wav",
+					"keyboard/letter_3.wav"
+				],
+				"TYPING_SPACE": ["keyboard/space.wav"]
+			}
+		},
+		"schema_version": 1
+	},
+	"version": "1.0"
+}
